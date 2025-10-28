@@ -8,7 +8,7 @@ fn main() {
             primary_window: Some(Window {
                 present_mode: PresentMode::AutoVsync,
                 mode: WindowMode::BorderlessFullscreen(MonitorSelection::Primary),
-                name: Some("Pong".to_string()),
+                name: Some("name".to_string()),
                 ..default()
             }),
             ..default()
