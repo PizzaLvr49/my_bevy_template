@@ -1,5 +1,3 @@
-mod panic_handler;
-
 use bevy::prelude::*;
 use bevy::window::{PresentMode, WindowMode};
 use panic_handler::PanicHandler;

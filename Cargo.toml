@@ -1,7 +1,9 @@
-[package]
+[workspace]
 name = "pong"
 version = "0.1.0"
 edition = "2024"
+members = ["crates/*"]
+resolver = "3"
 
 [dependencies]
 avian2d = "0.4.0"
