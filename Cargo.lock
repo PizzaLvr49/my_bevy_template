@@ -1200,6 +1200,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ef8e4b7e61dfe7719bb03c884dc270cd46a82efb40f93e9933b990c5c190c59"
 
 [[package]]
+name = "bevy_panic"
+version = "0.1.0"
+
+[[package]]
 name = "bevy_pbr"
 version = "0.17.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
