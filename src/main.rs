@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 use bevy::window::{PresentMode, WindowMode};
-use panic_handler::PanicHandler;
+use bevy_panic::PanicHandler;
 
 fn main() {
     App::new()
