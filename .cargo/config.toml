@@ -7,5 +7,5 @@ linker = "rust-lld.exe"
 rustflags = ["-C", "target-feature=+crt-static"]
 
 [alias]
-dev = "run --release --features dev"
+dev = "run --features dev"
 dist-build = "build --profile dist"
