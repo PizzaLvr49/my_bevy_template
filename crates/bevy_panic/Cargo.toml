@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 bevy = { workspace = true }
-rfd = "0.15.4"
+rfd = { workspace = true }

@@ -8,4 +8,4 @@ rustflags = ["-C", "target-feature=+crt-static"]
 
 [alias]
 dev = "run --features dev"
-dist-build = "build --profile dist"
+dist-build = "build --release"
